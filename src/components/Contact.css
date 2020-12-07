@@ -9,24 +9,12 @@ body {
   overflow: hidden;
 }
 
-h1 {
-  color: #060930;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-hr {
-  border: none;
-  border-top: 2px solid black;
-  width: 100px;
-}
-
 form {
   font-size: 1.1em !important;
 }
 
 .container {
-  background: #0d1037;
+  background: white;
   display: inline-block;
   padding: 20px;
   box-shadow: 4px 10px 10px rgb(114, 114, 114);
@@ -38,18 +26,19 @@ input,
 button {
   display: block;
   margin-bottom: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 input,
 textarea {
   color: black;
+  border: none;
   width: 250px;
   height: 18px;
   border-radius: 10px;
-  border: none;
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color: white;
+  box-shadow: 4px 4px 6px #b5b5b5;
 }
 
 input:focus,
@@ -60,18 +49,20 @@ button:focus {
 
 button {
   color: black;
-  width: 80px;
-  height: 30px;
-  margin: auto;
-  border-radius: 10px;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
   border: none;
+  width: 270px;
+  height: 40px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
 }
 
 textarea {
   min-width: 250px;
-  min-height: 30px;
+  min-height: 50px;
   font-size: 0.9em;
 }
 
