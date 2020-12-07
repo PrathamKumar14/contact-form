@@ -65,7 +65,7 @@ button {
   margin: auto;
   border-radius: 10px;
   border: none;
-  cursor: hover;
+  cursor: pointer;
   font-family: "Poppins", sans-serif;
 }
 
